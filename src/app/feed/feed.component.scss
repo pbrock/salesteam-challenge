@@ -1,0 +1,80 @@
+.feed {
+    background-color: rgba(255,255,255, .50);
+    border: 1px solid rgba(6,84,33, .50);
+    box-shadow: 2px 2px 3px rgba(6,84,33, .25);
+    padding: 3% 2%;
+    box-sizing: border-box;
+    min-height: 50vh;
+    color: #459261;
+
+    &--item {
+        
+    }
+    &--title h3{
+        color: #065421;
+        font-size: 2.5rem;
+    }
+
+    &--intro {
+        text-align: center;
+        font-size: .8rem;
+    }
+    
+    &--intro span{
+        display:block;
+        font-weight: 800;
+    }
+
+    &--image {
+        text-align: center;
+    }
+
+    &--image img{
+        border-radius: 50%;
+        border: 1px solid #459261;
+    }
+
+    &--text {
+        text-align: center;
+        padding: 10px;
+        font-size: 1.2rem;
+        color: #065421;
+    }
+}
+.overview {
+    display: flex;
+
+    &--deals, &--value {
+        text-align: center;
+        padding:10px 0;
+        flex-basis: 50%;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .feed {
+        min-height: 45vh;
+        &--intro {
+            display: none;
+        }
+
+        &--image img {
+            width: 70%;
+        }
+
+        &--text {
+            font-size: .9rem;
+        }
+
+        &--text h6, &--title h3{
+            font-size: 1.2rem;
+        }
+    }
+
+    .overview {
+        &--deals h6, &--value h6 {
+            font-size: 1.1rem;
+        }
+    }
+}

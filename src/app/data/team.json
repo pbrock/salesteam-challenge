@@ -1,0 +1,244 @@
+{"section":
+    {"salespeople":
+        [
+            {
+                "name":"Abdullah Hadley",
+                "id":"1",
+                "sales":{
+                    "day":"4",
+                    "week":"30",
+                    "month":"122"
+                },
+                "image":"/men/4.jpg",
+                "bio":"Abdullah Hadley Bio"
+            },
+            {
+                "name":"Renee Sims",
+                "id":"2",
+                "sales":{
+                    "day":"5",
+                    "week":"20",
+                    "month":"102"
+                },
+                "image":"/women/4.jpg",
+                "bio":"Renee Sims Bio"
+            },
+            {
+                "name":"Carys Metz",
+                "id":"3",
+                "sales":{
+                    "day":"3",
+                    "week":"30",
+                    "month":"90"
+                },
+                "image":"/women/6.jpg",
+                "bio":"Carys Metz Bio"
+            },
+            {
+                "name":"Eduard Franz",
+                "id":"4",
+                "sales":{
+                    "day":"4",
+                    "week":"28",
+                    "month":"89"
+                },
+                "image":"/men/6.jpg",
+                "bio":"Eduard Franz Bio"
+            },
+            {
+                "name":"Alexis Doreau",
+                "id":"5",
+                "sales":{
+                    "day":"5",
+                    "week":"19",
+                    "month":"88"
+                },
+                "image":"/men/7.jpg",
+                "bio":"Alexis Doreau Bio"
+            },
+            {
+                "name":"Mia Denys",
+                "id":"6",
+                "sales":{
+                    "day":"4",
+                    "week":"28",
+                    "month":"85"
+                },
+                "image":"/women/7.jpg",
+                "bio":"Mia Denys Bio"
+            },
+            {
+                "name":"Lourdes Browning",
+                "id":"7",
+                "sales":{
+                    "day":"6",
+                    "week":"20",
+                    "month":"80"
+                },
+                "image":"/women/10.jpg",
+                "bio":"Lourdes Browning Bio"
+            },
+            {
+                "name":"Zachary Albright",
+                "id":"8",
+                "sales":{
+                    "day":"4",
+                    "week":"319",
+                    "month":"79"
+                },
+                "image":"/men/8.jpg",
+                "bio":"Zachary Albright Bio"
+            },
+            {
+                "name":"Tim Schoch",
+                "id":"9",
+                "sales":{
+                    "day":"4",
+                    "week":"15",
+                    "month":"78"
+                },
+                "image":"/men/9.jpg",
+                "bio":"Tim Schoch Bio"
+            },
+            {
+                "name":"Oscar Thomsen",
+                "id":"10",
+                "sales":{
+                    "day":"4",
+                    "week":"17",
+                    "month":"75"
+                },
+                "image":"/men/10.jpg",
+                "bio":"Oscar Thomsen Bio"
+            },
+            {
+                "name":"Vivianna Kiser",
+                "id":"11",
+                "sales":{
+                    "day":"2",
+                    "week":"14",
+                    "month":"70"
+                },
+                "image":"/women/11.jpg",
+                "bio":"Vivianna Kiser Bio"
+            },
+            {
+                "name":"Elena Satine",
+                "id":"12",
+                "sales":{
+                    "day":"3",
+                    "week":"12",
+                    "month":"64"
+                },
+                "image":"/women/12.jpg",
+                "bio":"Elena Satine Bio"
+            },
+            {
+                "name":"Elliot Nolten",
+                "id":"13",
+                "sales":{
+                    "day":"3",
+                    "week":"15",
+                    "month":"60"
+                },
+                "image":"/men/12.jpg",
+                "bio":"Elliot Nolten Bio"
+            },
+            {
+                "name":"Daniela Dewitt",
+                "id":"14",
+                "sales":{
+                    "day":"3",
+                    "week":"12",
+                    "month":"58"
+                },
+                "image":"/women/13.jpg",
+                "bio":"Daniela Dewitt Bio"
+            },
+            {
+                "name":"Chloe Sirko",
+                "id":"15",
+                "sales":{
+                    "day":"4",
+                    "week":"16",
+                    "month":"55"
+                },
+                "image":"/women/14.jpg",
+                "bio":"Chloe Sirko Bio"
+            },
+            {
+                "name":"Kaine Hudson",
+                "id":"16",
+                "sales":{
+                    "day":"2",
+                    "week":"12",
+                    "month":"50"
+                },
+                "image":"/men/16.jpg",
+                "bio":"Kaine Hudson Bio"
+            },
+            {
+                "name":"Stephane Moreau",
+                "id":"17",
+                "sales":{
+                    "day":"3",
+                    "week":"12",
+                    "month":"40"
+                },
+                "image":"/men/21.jpg",
+                "bio":"Stephane Moreau Bio"
+            },
+            {
+                "name":"Kelly Williams",
+                "id":"18",
+                "sales":{
+                    "day":"1",
+                    "week":"7",
+                    "month":"35"
+                },
+                "image":"/men/29.jpg",
+                "bio":"Kelly Williams Bio"
+            }
+        ] 
+    },
+    "overview":{
+        "deals":"345",
+        "value":"$100,345"
+    },
+    "feed":{
+        "title": "Remember: Always be closing",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "events": [
+            {
+                "name":"Zachary Albright",
+                "image":"/men/8.jpg",
+                "type": "made a sale"
+            },
+            {
+                "name":"Kelly Williams",
+                "image":"/men/29.jpg",
+                "type": "added a new lead"
+            },
+            {
+                "name":"Chloe Sirko",
+                "image":"/women/14.jpg",
+                "type": "added a new lead"
+            },
+            {
+                "name":"Vivianna Kiser",
+                "image":"/women/18.jpg",
+                "type": "made a sale"
+            },
+            {
+                "name":"Eduard Franz",
+                "image":"/men/6.jpg",
+                "type": "made a sale"
+            },
+            {
+                "name":"Zachary Albright",
+                "image":"/men/8.jpg",
+                "type": "added a new lead"
+            }
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+<div class="salesLeaders">
+  <h2 class="leaders--title">Sales leaders for this month</h2>
+  <ul class="leaders">
+    <li class="leader" *ngFor="let leader of this.leaders">
+      <div class="leader--inner">
+        <div class="leader-name heading-5">{{leader.name}}</div>
+        <div class="leader-image">
+          <img src="https://randomuser.me/api/portraits{{leader.image}}" alt="Photo of {{leader.name}}" />
+        </div>
+        <div class="leader-deals heading-sm">{{leader.sales.month}} closed deals</div>
+        <div class="leader-bio">
+          <div class="leader-bioLink">
+              <a href="#">View Profile</a>
+          </div>
+          <div class="leader-bioText">
+            <p>{{leader.bio}}</p>
+          </div>
+        </div>
+        <div class="leader-message">
+          <a href="#">Message</a>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+

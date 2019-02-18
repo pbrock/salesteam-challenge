@@ -1,0 +1,17 @@
+<h2 class="listings--headline">The Sales Team</h2>
+<div class="listing" *ngFor="let member of this.members">
+  <div class="listing--image">
+      <img src="https://randomuser.me/api/portraits{{member.image}}" alt="Photo of {{member.name}}" />
+  </div>
+  <div class="listing--name heading-6">{{member.name}}</div>
+  <div class="listing--sales">{{member.sales.month}} closed deals</div>
+  <div class="listing--profile">
+    <div class="listing--profileLink">
+      <a href="#">View Profile</a>
+    </div>
+    <div class="listing--profileText"></div>
+  </div>
+  <div class="listing--message">
+    <a href="#">Message</a>
+  </div>
+</div>

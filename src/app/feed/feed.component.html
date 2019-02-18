@@ -1,0 +1,29 @@
+<div class="feed">
+  <div class="feed--title">
+    <h3>Sales Feed</h3>
+  </div>
+  <div class="feed--item">
+    <div class="feed--event">
+        <div class="feed--image">
+            <img src="https://randomuser.me/api/portraits{{this.image}}">
+        </div>
+        <div class="feed--text">
+            <h6>{{this.name}}</h6>{{this.type}}
+        </div>
+    </div>
+    <div class="feed--intro">
+      <span>{{this.feed.title}}</span>
+      {{this.feed.body}}
+    </div>
+  </div>
+  <div class="overview">
+      <div class="overview--deals">
+        <h6>{{this.overview.deals}}</h6>
+        Deals
+      </div>
+      <div class="overview--value">
+        <h6>{{this.overview.value}}</h6>
+        Current value
+      </div>
+    </div>
+</div>

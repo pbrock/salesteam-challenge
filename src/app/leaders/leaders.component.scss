@@ -1,0 +1,98 @@
+.salesLeaders {
+    flex: 1 75%;
+    margin-left: 3%;
+}
+.leaders {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &--title {
+        color: #065421;
+    }
+
+}
+.leader {
+    text-align: center;
+    color: #459261;
+    width: 25vw;
+    margin: 0 3%;
+
+    &:first-child {
+        margin: 0 3% 0 0;
+    }
+
+    & a {
+        color: #459261;
+    }
+
+    &-name {
+        box-sizing: border-box;
+        flex-basis: 60%;
+        align-self: center;
+        text-align: right;
+    }
+
+    &-image {
+        box-sizing: border-box;
+        padding:5px;
+        flex-basis: 40%;
+        align-self: center;
+        & img {
+            width: 80%;
+            border-radius: 50%;
+            border: 1px solid #459261;
+        }
+    }
+
+    &-deals {
+        flex:1 100%;
+        padding:5px 0 15px;
+    }
+
+    &-bio, &-message {
+        flex: 1 100%;
+    }
+
+    &-bioLink, &-bioText, &-message {
+        padding-bottom:3px;
+        font-size: .9rem;
+    }
+
+    &-bioText {
+        padding-top:1px;
+    }
+
+    &--inner {
+        display: flex;
+        flex-flow: row wrap;
+        min-height: 45vh;
+        background-color: rgba(255,255,255, .50);
+        border: 1px solid rgba(6,84,33, .50);
+        box-shadow: 2px 2px 3px rgba(6,84,33, .25);
+        padding: 3% 2%;
+        margin: 25px 0 0;
+        box-sizing: border-box;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .leaders {
+        align-items: flex-end;
+    }
+    .leader {
+        &--inner{
+            min-height: 55vh;
+        }
+        
+        &-name, &-image {
+            flex-basis: 100%;
+            text-align: center;
+        }
+
+        &-image img {
+            width: 45%;
+        }
+    }
+}

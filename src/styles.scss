@@ -1,1 +1,129 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow');
+
+/* MEYERS RESET */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END MEYERS RESET */
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	background-color: #c7e0d0;
+}
+h1, h2, h3, h4, h5, h6, .heading-1, .heading-2, .heading-3, .heading-4, .heading-5, .heading-6, .heading-sm {
+    font-family: 'PT Sans Narrow', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	flex: 1 100%;
+}
+h1, .heading-1 {
+    font-size: 4rem;
+}
+h2, .heading-2 {
+    font-size: 3.5rem;
+}
+h3, .heading-3 {
+    font-size: 3rem;
+}
+h4, .heading-4 {
+    font-size: 2.5rem;
+}
+h5, .heading-5 {
+    font-size: 2rem;
+}
+h6, .heading-6 {
+    font-size:1.5rem
+}
+.heading-sm {
+	font-size:1.1rem;
+}
+.dkGreen {
+	color: #065421;
+}
+.wrapper {
+	padding: 2% 0;
+	position: relative;
+
+	&:after {
+		background-image: url('assets/images/white-waves.png');
+		content: "";
+		opacity: 0.5;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		position: absolute;
+		z-index: -1; 
+	}
+}
+.infoBar {
+	flex:1 100%;
+	display: flex;
+	align-items: flex-end;
+}
+.component{
+	display: inline-block;
+	box-sizing: border-box;
+
+	&--leader {
+		flex-basis: 75%;
+	}
+	&--feed {
+		flex-basis: 25%;
+		width: 25vw;
+		margin: 0 3%;
+	}
+	&--listing {
+		flex-basis: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		margin: 10vh 3%;
+		background-color: rgba(255,255,255, .50);
+        border: 1px solid rgba(6,84,33, .50);
+		box-shadow: 2px 2px 3px rgba(6,84,33, .25);
+		box-sizing: border-box;
+		padding: 3%;
+	}
+}
